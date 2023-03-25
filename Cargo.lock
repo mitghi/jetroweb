@@ -1006,9 +1006,9 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "jetro"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0e0600a790ac0d71f5701e6848204bfd55a7d40f2ef5c9c64698f41c71fc1a6"
+checksum = "bcfd1466621d563bb2b8001108281a91d48b91bb67aa541f90e64a98ee6ec56f"
 dependencies = [
  "dynfmt",
  "pest",
