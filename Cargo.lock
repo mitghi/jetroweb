@@ -975,9 +975,9 @@ checksum = "62b02a5381cc465bd3041d84623d0fa3b66738b52b8e2fc3bab8ad63ab032f4a"
 
 [[package]]
 name = "jetro"
-version = "0.2.3"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d81b89f950814c9c67b0ada5d7f36ac7744e09b5f210a70f315d88ba57cf9aea"
+checksum = "e677de675f5457328d80f41c7e4bfe7f285b2a4d3941b3c5eb6ecf11698926b7"
 dependencies = [
  "dynfmt",
  "pest",
@@ -988,7 +988,7 @@ dependencies = [
 
 [[package]]
 name = "jetroweb"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "actix-web",
  "actix-web-static-files",

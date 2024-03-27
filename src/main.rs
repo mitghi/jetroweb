@@ -52,7 +52,7 @@ fn MyComponent() -> Html {
             pretty_field.set(vec![pr.err().unwrap().to_string()]);
             return;
         }
-        for v in pr.unwrap().0.borrow().iter() {
+        for v in &pr.unwrap().0 {
             log!(serde_json::to_string_pretty::<Value>(v).unwrap());
             result.push(serde_json::to_string_pretty::<Value>(v).unwrap());
         }
